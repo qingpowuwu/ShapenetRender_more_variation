@@ -65,6 +65,13 @@ each line represent a parameter:
 
 [normal.tar](https://drive.google.com/file/d/1S0lOG3Id_e2FwXwMf4AMp7-xBfVsVk7Z/view?usp=sharing)
 
+```
+gdown https://drive.usercontent.google.com/open?id=1gwRviPb18vANDECAqeUqLBCvBTnfq7fo&authuser=0
+gdown https://drive.usercontent.google.com/open?id=1sA21ywWjve2VXxqARhiWa109cq_1Ntv4&authuser=0
+gdown https://drive.usercontent.google.com/open?id=1IA9gYqK0K7oVXdRPQDdGitLArpexdfSI&authuser=0
+gdown https://drive.usercontent.google.com/open?id=1S0lOG3Id_e2FwXwMf4AMp7-xBfVsVk7Z&authuser=0
+```
+
 ### Or you can run the generation script by yourself :
 ```
   install blender 2.79 and go to its python3.5m to install pip3, then install numpy and opencv
