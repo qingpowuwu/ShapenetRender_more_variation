@@ -66,10 +66,10 @@ each line represent a parameter:
 [normal.tar](https://drive.google.com/file/d/1S0lOG3Id_e2FwXwMf4AMp7-xBfVsVk7Z/view?usp=sharing)
 
 ```
-gdown https://drive.usercontent.google.com/open?id=1gwRviPb18vANDECAqeUqLBCvBTnfq7fo&authuser=0
-gdown https://drive.usercontent.google.com/open?id=1sA21ywWjve2VXxqARhiWa109cq_1Ntv4&authuser=0
-gdown https://drive.usercontent.google.com/open?id=1IA9gYqK0K7oVXdRPQDdGitLArpexdfSI&authuser=0
-gdown https://drive.usercontent.google.com/open?id=1S0lOG3Id_e2FwXwMf4AMp7-xBfVsVk7Z&authuser=0
+gdown https://drive.google.com/uc?id=1gwRviPb18vANDECAqeUqLBCvBTnfq7fo -O image.tar
+gdown https://drive.google.com/uc?id=1sA21ywWjve2VXxqARhiWa109cq_1Ntv4 -O albedo.tar
+gdown https://drive.google.com/uc?id=1IA9gYqK0K7oVXdRPQDdGitLArpexdfSI -O depth.tar
+gdown https://drive.google.com/uc?id=1S0lOG3Id_e2FwXwMf4AMp7-xBfVsVk7Z -O normal.tar
 ```
 
 ### Or you can run the generation script by yourself :
