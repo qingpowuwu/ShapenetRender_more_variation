@@ -1,5 +1,5 @@
 # ShapenetRender_more_variation
-
+这个仓库名为 ShapenetRender_more_variation，是一个用于渲染 ShapeNet 数据集的2D图像的新渲染工具集。该数据集不仅包含 RGB 图像，还包括深度图、法线图和反照率图（albedo map）
 ## A new shapenet rendering 2D image dataset that also contains deph map, normal map and albedo map.
 
 Please cite our paper[DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction (NeurIPS 2019)](https://arxiv.org/abs/1905.10711) if you plan to download the rendered images or use our code to render by yourself.
@@ -78,6 +78,21 @@ gdown https://drive.usercontent.google.com/open?id=1S0lOG3Id_e2FwXwMf4AMp7-xBfVs
   
   python -u render_batch --model_root_dir {model root dir} --render_root_dir {where you store images} --filelist_dir {which models you want to render} --blender_location {you} --num_thread {10} --shapenetversion {support v1, v2} --debug {False}
 ```
+```
+python -u render_batch --model_root_dir {模型根目录} --render_root_dir {存储图像的目录} --filelist_dir {要渲染的模型列表目录} --blender_location {Blender路径} --num_thread {线程数量} --shapenetversion {v1或v2} --debug {是否调试模式}
+```
+
+```
+python -u render_batch.py \
+  --model_root_dir /data/3dPrinter/0_Dataset_Ori/4_DISN_Datasets/2_Generated/models \
+  --render_root_dir /data/3dPrinter/0_Dataset_Ori/4_DISN_Datasets/2_Generated/rendered_images \
+  --filelist_dir /data/3dPrinter/6_ShapenetRender_more_variation-master/filelists \
+  --blender_location /data/3dPrinter/blender-2.79-e045fe53f1b0-linux-glibc217-x86_64/blender \
+  --num_thread 10 \
+  --shapenetversion v1 \
+  --debug False
+```
+
 
 ### Transformation matrix calculation:
 Please refer to cam_read.py
